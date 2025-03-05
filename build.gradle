@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+    id "net.serenity-bdd.serenity-gradle-plugin" version "4.2.8"
+}
+compileJava {
+    options.encoding('UTF-8')
+}
+compileTestJava {
+    options.encoding('UTF-8')
+}
+group 'co.com.enlace'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    implementation 'net.serenity-bdd:serenity-core:4.2.8'
+    implementation 'net.serenity-bdd:serenity-junit:4.2.8'
+    implementation 'net.serenity-bdd:serenity-screenplay:4.2.8'
+    implementation 'net.serenity-bdd:serenity-screenplay-webdriver:4.2.8'
+    testImplementation 'net.serenity-bdd:serenity-cucumber:4.2.8'
+    testImplementation 'org.slf4j:slf4j-simple:2.0.16'
+    implementation 'org.slf4j:slf4j-api:2.0.16'
+    implementation 'com.github.javafaker:javafaker:1.0.2'
+    annotationProcessor "org.projectlombok:lombok:1.18.26"
+
+
+}
+
+java{
+    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_11
+}
+
+gradle.startParameter.continueOnFailure = true
+test.finalizedBy(aggregate)
