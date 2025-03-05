@@ -84,19 +84,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Scenario: Inicio de sesión exitoso con credenciales válidas.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Intento de inicio de sesión con credenciales incorrectas.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build Prueba_Guadalupe.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.InicioSesion_runner.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Documentos personales/Prueba_Guadalupe&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Scenario: Inicio de sesión exitoso con credenciales válidas.executor": "Run",
+    "Cucumber Java.Scenario: Intento de inicio de sesión con credenciales incorrectas.executor": "Run",
+    "Gradle.AgregarEmpleado_runner.executor": "Run",
+    "Gradle.Build Prueba_Guadalupe.executor": "Run",
+    "Gradle.InicioSesion_runner.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Documentos personales/Prueba_Guadalupe"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.InicioSesion_runner">
+}]]></component>
+  <component name="RunManager" selected="Gradle.AgregarEmpleado_runner">
     <configuration name="Scenario: Inicio de sesión exitoso con credenciales válidas" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/inicio_sesion.feature" />
@@ -145,6 +146,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AgregarEmpleado_runner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.orangeHRM.runner.AgregarEmpleado_runner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="InicioSesion_runner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -171,6 +196,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AgregarEmpleado_runner" />
         <item itemvalue="Gradle.InicioSesion_runner" />
         <item itemvalue="Cucumber Java.Scenario: Intento de inicio de sesión con credenciales incorrectas" />
         <item itemvalue="Cucumber Java.Scenario: Inicio de sesión exitoso con credenciales válidas" />
