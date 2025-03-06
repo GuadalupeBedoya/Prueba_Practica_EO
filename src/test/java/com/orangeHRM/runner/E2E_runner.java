@@ -6,12 +6,12 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/1.Inicio_sesion.feature",
-        glue = "/com/orangeHRM/stepsdefinitions",
+        features = "src/test/resources/features/",
+        glue = "com.orangeHRM.stepsdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         tags = "",
         plugin = {"pretty"}
 )
 
-public class InicioSesion_runner {
+public class E2E_runner {
 }

@@ -7,15 +7,16 @@ import net.serenitybdd.screenplay.actions.Open;
 
 import static co.com.orangeHRM.utils.Constantes.WEB_URL;
 
-public class abrirUrl implements Task {
+public class AbrirUrl_tasks implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Open.url(WEB_URL));
-
+        actor.attemptsTo(
+                Open.url(WEB_URL));
     }
 
-public static abrirUrl abrirUrl() {return Tasks.instrumented(abrirUrl.class);
+public static AbrirUrl_tasks abrirUrl() {
+        return Tasks.instrumented(AbrirUrl_tasks.class);
     }
 }
 

@@ -6,6 +6,6 @@ Característica: Agregar un nuevo empleado en OrangeHRM
   Para gestionar la información de los empleados
 
   Escenario: Agregar un empleado exitosamente
-    Dado que el usuario inicia sesión en OrangeHRM
+    Dado que el usuario inicia sesion en OrangeHRM
     Cuando agrega un nuevo empleado con informacion valida
-    Entonces el sistema confirma el registro con un mensaje de exito
+    Entonces el sistema redirige al usuario a la pagina de administracion

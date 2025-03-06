@@ -5,36 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e15dce78-139a-46cf-9c1a-d9b26a260f66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/questions/MensajeCredencialesInvalidas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/questions/verificarPaginaPrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/tasks/abrirUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/userinterface/inicioSesionPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/userinterface/paginaPrincipalPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/utils/Constantes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/stepsdefinitions/InicioSesion_stepsdefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/agregar_empleado.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/inicio_sesion.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/questions/VerificarConsultaEmpleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/questions/VerificarPaginaAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/tasks/CerrarSesion_tasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/tasks/ConsultarEmpleado_tasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/tasks/EliminarEmpleado_tasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/userinterface/PaginaAdmin_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/runner/ConsultarEmpleado_runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/runner/E2E_runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/stepsdefinitions/ConsultarEmpleado_stepsdefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Consultar_Empleado.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/frontbancolombia/questions/VerificarLabelAvisoLegal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/frontbancolombia/questions/VerificarLabelTextoBienvenido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/frontbancolombia/tasks/AbrirWeb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/frontbancolombia/tasks/IngresarCredenciales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/tasks/ingresarCredenciales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/frontbancolombia/userinterface/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/frontbancolombia/userinterface/PrincipalPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/frontbancolombia/utils/Credenciales.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/frontbancolombia/runner/E2E/consultar_cotizantes_runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/frontbancolombia/runner/Funcionales/login_runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/runner/InicioSesion_runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/frontbancolombia/stepsdefinitions/E2E/consultar_cotizantes_stepsdefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/frontbancolombia/stepsdefinitions/Funcionales/login_stepsdefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/frontbancolombia/stepsdefinitions/setup/SetupFront.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/stepsdefinitions/setup/setupFront.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/feature/E2E/consultar_cotizantes.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/feature/Funcionales/login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/questions/MensajeCredencialesInvalidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/questions/MensajeCredencialesInvalidas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/questions/verificarPaginaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/questions/VerificarPaginaPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/tasks/AgregarEmpleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/tasks/AgregarEmpleado_tasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/tasks/abrirUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/tasks/AbrirUrl_tasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/tasks/ingresarCredenciales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/tasks/IngresarCredenciales_tasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/userinterface/AgregarEmpleadoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/userinterface/AgregarEmpleado_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/userinterface/inicioSesionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/userinterface/InicioSesion_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/userinterface/paginaPrincipalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/userinterface/PaginaPrincipal_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/utils/Constantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/orangeHRM/utils/Constantes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangeHRM/runner/AgregarEmpleado_runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/runner/AgregarEmpleado_runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangeHRM/runner/InicioSesion_runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/runner/InicioSesion_runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangeHRM/stepsdefinitions/AgregarEmpleado_stepsdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/stepsdefinitions/AgregarEmpleado_stepsdefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/orangeHRM/stepsdefinitions/InicioSesion_stepsdefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/orangeHRM/stepsdefinitions/InicioSesion_stepsdefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/agregar_empleado.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/2.Agregar_empleado.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/inicio_sesion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/1.Inicio_sesion.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +75,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="GradleRunConfiguration" name="Rerun Failed Tests" />
+    </enabled-run-configurations>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -86,10 +93,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Cucumber Java.Scenario: Agregar un empleado exitosamente.executor": "Run",
+    "Cucumber Java.Scenario: Consulta exitosa de un empleado.executor": "Run",
     "Cucumber Java.Scenario: Inicio de sesión exitoso con credenciales válidas.executor": "Run",
     "Cucumber Java.Scenario: Intento de inicio de sesión con credenciales incorrectas.executor": "Run",
     "Gradle.AgregarEmpleado_runner.executor": "Run",
     "Gradle.Build Prueba_Guadalupe.executor": "Run",
+    "Gradle.ConsultarEmpleado.executor": "Run",
+    "Gradle.ConsultarEmpleado_runner.executor": "Run",
+    "Gradle.E2E_runner.executor": "Run",
     "Gradle.InicioSesion_runner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -97,37 +109,17 @@
     "last_opened_file_path": "C:/Documentos personales/Prueba_Guadalupe"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.AgregarEmpleado_runner">
-    <configuration name="Scenario: Inicio de sesión exitoso con credenciales válidas" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Gradle.ConsultarEmpleado_runner">
+    <configuration name="Scenario: Consulta exitosa de un empleado" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/inicio_sesion.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Consultar_Empleado.feature" />
       <option name="GLUE" value="net.serenitybdd.cucumber.actors com.orangeHRM.stepsdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Prueba_Guadalupe.test" />
-      <option name="NAME_FILTER" value="^Inicio de sesión exitoso con credenciales válidas$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Inicio de sesión exitoso con credenciales válidas$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Inicio de sesión exitoso con credenciales válidas" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Intento de inicio de sesión con credenciales incorrectas" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/inicio_sesion.feature" />
-      <option name="GLUE" value="net.serenitybdd.cucumber.actors com.orangeHRM.stepsdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Prueba_Guadalupe.test" />
-      <option name="NAME_FILTER" value="^Intento de inicio de sesión con credenciales incorrectas$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Intento de inicio de sesión con credenciales incorrectas$&quot;" />
+      <option name="NAME_FILTER" value="^Consulta exitosa de un empleado$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Consulta exitosa de un empleado$&quot;" />
       <shortenClasspath name="ARGS_FILE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Intento de inicio de sesión con credenciales incorrectas" />
+      <option name="SUGGESTED_NAME" value="Scenario: Consulta exitosa de un empleado" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -151,7 +143,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" value="--scan" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -160,6 +152,54 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;com.orangeHRM.runner.AgregarEmpleado_runner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ConsultarEmpleado_runner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.orangeHRM.runner.ConsultarEmpleado_runner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E_runner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.orangeHRM.runner.E2E_runner&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -196,10 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ConsultarEmpleado_runner" />
         <item itemvalue="Gradle.AgregarEmpleado_runner" />
+        <item itemvalue="Gradle.E2E_runner" />
+        <item itemvalue="Cucumber Java.Scenario: Consulta exitosa de un empleado" />
         <item itemvalue="Gradle.InicioSesion_runner" />
-        <item itemvalue="Cucumber Java.Scenario: Intento de inicio de sesión con credenciales incorrectas" />
-        <item itemvalue="Cucumber Java.Scenario: Inicio de sesión exitoso con credenciales válidas" />
       </list>
     </recent_temporary>
   </component>

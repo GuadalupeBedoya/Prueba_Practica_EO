@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/agregar_empleado.feature",
+        features = "src/test/resources/features/2.Agregar_empleado.feature",
         glue = "/com/orangeHRM/stepsdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         tags = "",

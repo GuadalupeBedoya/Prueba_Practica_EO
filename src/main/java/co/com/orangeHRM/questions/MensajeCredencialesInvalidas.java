@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Visibility;
 
-import static co.com.orangeHRM.userinterface.inicioSesionPage.LABEL_INVALID_CREDENCIALS;
+import static co.com.orangeHRM.userinterface.InicioSesion_Page.LABEL_INVALID_CREDENCIALS;
 
 
 public class MensajeCredencialesInvalidas implements Question <Boolean> {
